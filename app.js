@@ -30,7 +30,9 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/userDB");
+mongoose.connect(
+	`mongodb+srv://admin-eniola:${process.env.PASSWORD}@cluster0.velr6at.mongodb.net/userDB`
+);
 
 const userSchema = new mongoose.Schema({
 	email: String,
