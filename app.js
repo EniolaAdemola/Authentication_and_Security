@@ -63,7 +63,7 @@ passport.use(
 			clientID: process.env.CLIENT_ID,
 			clientSecret: process.env.CLIENT_SECRET,
 			callbackURL:
-				"https://agile-caverns-55089.herokuapp.com/auth/google/secrets",
+				"https://eniola-secrete-app.herokuapp.com/auth/google/secrets",
 		},
 		(accessToken, refreshToken, profile, cb) => {
 			// console.log(profile);
@@ -80,7 +80,7 @@ passport.use(
 			clientID: process.env.APP_ID,
 			clientSecret: process.env.APP_SECRET,
 			callbackURL:
-				"https://agile-caverns-55089.herokuapp.com/auth/facebook/secrets",
+				"https://eniola-secrete-app.herokuapp.com/auth/facebook/secrets",
 		},
 		(accessToken, refreshToken, profile, cb) => {
 			// console.log(profile);
