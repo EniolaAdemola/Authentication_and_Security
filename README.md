@@ -49,4 +49,4 @@ to see the project [click me](https://eniola-secrete-app.herokuapp.com/)
 
 Eniola Ademola - [@tweet me](https://twitter.com/_daveworld) - it.eniolaademola@gmail.com
 
-Project Link: [EniolaAdemola/Authentication_and_Security](https://github.com/EniolaAdemola/Authentication_and_Security)
+Github Repo: [EniolaAdemola/Authentication_and_Security](https://github.com/EniolaAdemola/Authentication_and_Security)
